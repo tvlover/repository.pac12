@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.pac12" name="Pac12 Repository" version="1.0.0" provider-name="Pac12">
+	<extension point="xbmc.addon.repository" name="Pac12Repo">
+		<info compressed="false">https://raw.github.com/tvlover/repository.pac12/master/addons.xml</info>
+		<checksum>https://raw.github.com/tvlover/repository.pac12/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvlover/repository.pac12/raw/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Pac12Repo</summary>
+		<description>Repo for Pac12</description>
+		<platform>all</platform>
+	</extension>
+</addon>
